@@ -12,7 +12,6 @@ public class Task1 {
     public static int[] rotation(int[] arr, int times) {
         int[] rotatedArray = arr.clone();
         times = times % arr.length;
-        int buffer = arr[times];
         for (int i = 0; i < arr.length; i++) {
             rotatedArray[(i + times) % arr.length] = arr[i];
         }
