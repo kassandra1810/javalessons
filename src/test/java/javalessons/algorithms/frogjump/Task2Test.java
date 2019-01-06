@@ -29,16 +29,4 @@ public class Task2Test {
 
         assertEquals(expectedResult, actualResult);
     }
-
-    @Test
-    public void shouldStayInPlace() {
-        int inputX = 10;
-        int inputY = 1;
-        int inputD = 10;
-        int expectedResult = 0;
-
-        int actualResult = Task2.solution(inputX, inputY, inputD);
-
-        assertEquals(expectedResult, actualResult);
-    }
 }

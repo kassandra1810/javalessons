@@ -6,9 +6,10 @@ public class Task2 {
         int y = 85;
         int d = 30;
         int result = Task2.solution(x, y, d);
+        int temp = 2;
         System.out.print(result);
-
     }
+
     public static int solution(int x, int y, int d) {
         int result;
         if ((y-x)%d != 0) {
