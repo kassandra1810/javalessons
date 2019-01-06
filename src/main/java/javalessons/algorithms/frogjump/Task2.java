@@ -6,7 +6,7 @@ public class Task2 {
         int y = 85;
         int d = 30;
         int result = Task2.solution(x, y, d);
-        int temp = 2;
+        int temp = 3;
         System.out.print(result);
     }
 
